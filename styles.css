@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d1117;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.moon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+}
+
+.moon {
+    font-size: 100px;
+    transition: all 0.5s ease;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+input[type="range"] {
+    margin-left: 10px;
+}
